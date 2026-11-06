@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="IT">
+
+<!--HEAD OF ALL WEBSITE -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tommaso Dominici, web developer junior di Montevarchi: progetti in HTML, CSS, JavaScript e Python.">
+    <title>Tommaso Dominici · Web developer junior</title>
+    <link rel="stylesheet" href="Stile/Style.css">
+    <link rel="stylesheet" href="Stile/headcolor.css">
+    <link rel="stylesheet" href="Stile/style-switcher.css">
+
+    <!-- STYLE SWITCHER -->
+    <link rel="stylesheet" href="Stile/Skin/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="Stile/Skin/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="Stile/Skin/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="Stile/Skin/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="Stile/Skin/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- STYLE SWITCHER -->
+
+    <link rel="icon" href="Immagini/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <!-- MAIN CONTAINER START -->
+    <div class="main-container">
+        <!-- ASIDE START -->
+        <div class="aside">
+            <div class="logo">
+                <a href="#home"><span>T</span>ommaso</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i>Chi sono</a></li>
+                <li><a href="#services"><i class="fa fa-code"></i>Cosa so fare</a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Progetti</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i>Contatti</a></li>
+            </ul>
+        </div>
+        <!-- ASIDE END -->
+        <!-- MAIN CONTENT START -->
+        <div class="main-content">
+            <!-- HOME SECTION START -->
+            <section class="home active section" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Ciao, sono <span class="name">Tommaso Dominici</span></h3>
+                            <h3 class="my-profession">Sono un <span class="typing">Web developer junior</span></h3>
+                            <p>Creo siti e web app in HTML, CSS e JavaScript, e strumenti in Python.
+                                I miei ultimi progetti: <strong>CareerKick</strong>, un quiz sul calcio online su
+                                careerkick.it, e <strong>FantaMantra AI</strong>, un assistente per l'asta del
+                                fantacalcio.</p>
+                            <a href="#portfolio" class="btn section-link">Guarda i progetti</a>
+                            <a href="https://github.com/DemolitionWeb" class="btn btn-outline" target="_blank"
+                                rel="noopener">Profilo GitHub</a>
+                        </div>
+                        <div class="home-png padd-15">
+                            <img src="Immagini/home2.png" alt="Illustrazione di uno sviluppatore al computer">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- HOME SECTION END -->
+            <!-- ABOUT SECTION START -->
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Chi sono</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text">
+                                    <h3>Tommaso Dominici <span>Web developer junior</span></h3>
+                                    <p>Sono un perito informatico di Montevarchi. La passione per lo sviluppo web è
+                                        nata alla fine delle superiori e da allora imparo costruendo progetti veri.<br>
+                                        Parto spesso da ciò che conosco bene, lo sport: così sono nati CareerKick, un
+                                        quiz online in 6 lingue con sfide 1v1 tra browser, e FantaMantra AI, un
+                                        assistente in Python per l'asta del fantacalcio.<br>
+                                        Sono determinato e disciplinato, e cerco un primo ruolo come sviluppatore web.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        <div class="info-item padd-15">
+                                            <p>Email: <span>dominicitommaso2@gmail.com</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Qualifica: <span>Perito informatico</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>GitHub: <span><a href="https://github.com/DemolitionWeb" target="_blank"
+                                                        rel="noopener">DemolitionWeb</a></span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Città: <span>Montevarchi (AR)</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="buttons padd-15">
+                                            <a href="#contact" data-section-index="1"
+                                                class="btn hire-me">Contattami</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <div class="skills-item padd-15">
+                                            <h5>HTML</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 85%;"></div>
+                                                <div class="skill-percent">85%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skills-item padd-15">
+                                            <h5>CSS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 80%;"></div>
+                                                <div class="skill-percent">80%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skills-item padd-15">
+                                            <h5>JavaScript</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 70%;"></div>
+                                                <div class="skill-percent">70%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skills-item padd-15">
+                                            <h5>Python</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 55%;"></div>
+                                                <div class="skill-percent">55%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skills-item padd-15">
+                                            <h5>Git &amp; GitHub</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 65%;"></div>
+                                                <div class="skill-percent">65%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="education padd-15">
+                                    <h3 class="title">Formazione</h3>
+                                    <div class="row">
+                                        <div class="timeline-box">
+                                            <div class="timeline shadow-dark">
+                                                <!-- TIMELINE ITEM -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2016 - 2021
+                                                    </h3>
+                                                    <h4 class="timeline-title">Diploma di perito informatico</h4>
+                                                    <p class="timeline-text">ITT Galileo Ferraris, indirizzo
+                                                        Informatica.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="experience padd-15">
+                                    <h3 class="title">Esperienza</h3>
+                                    <div class="row">
+                                        <div class="timeline-box">
+                                            <div class="timeline shadow-dark">
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2024 - oggi
+                                                    </h3>
+                                                    <h4 class="timeline-title">Progetti personali</h4>
+                                                    <p class="timeline-text">Web app e strumenti pubblicati su GitHub:
+                                                        CareerKick (JavaScript, PWA, WebRTC) e FantaMantra AI (Python,
+                                                        SQLite, API).</p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-briefcase"></i> Stage
+                                                    </h3>
+                                                    <h4 class="timeline-title">Skynet, Montevarchi</h4>
+                                                    <p class="timeline-text">Assistenza tecnica e help desk.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <a href="#home" class="btnTop">Back to home</a>-->
+            </section>
+            <!-- ABOUT SECTION END -->
+            <!-- SERVICES SECTION START -->
+            <section class="services section" id="services">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Cosa so fare</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- SERVICES ITEM START -->
+                        <div class="services-item">
+                            <div class="services-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-mobile-alt"></i>
+                                </div>
+                                <h4>Siti responsive</h4>
+                                <p>Pagine in HTML e CSS che si adattano a computer, tablet e telefono.</p>
+                            </div>
+                        </div>
+                        <div class="services-item">
+                            <div class="services-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Web app in JavaScript</h4>
+                                <p>Giochi e app interattive, multilingua e installabili come PWA, come CareerKick.</p>
+                            </div>
+                        </div>
+                        <div class="services-item">
+                            <div class="services-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-database"></i>
+                                </div>
+                                <h4>Dati e API in Python</h4>
+                                <p>Importazione di dati da file e API, database SQLite e test automatici, come in
+                                    FantaMantra AI.</p>
+                            </div>
+                        </div>
+                        <div class="services-item">
+                            <div class="services-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-rocket"></i>
+                                </div>
+                                <h4>Pubblicazione online</h4>
+                                <p>Siti pubblicati con GitHub Pages e Netlify, aggiornati in automatico con GitHub
+                                    Actions.</p>
+                            </div>
+                        </div>
+                        <!-- SERVICES ITEM END -->
+                    </div>
+                </div>
+                <!-- <a href="#home" class="btnTop">Back to home</a>-->
+            </section>
+            <!-- SERVICES SECTION END -->
+            <!-- PORTFOLIO SECTION START -->
+            <section class="portfolio section" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Progetti</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-heading padd-15">
+                            <h2>Gli ultimi progetti</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- PORTFOLIO ITEM START -->
+                        <div class="portfolio-item portfolio-item-big padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="Immagini/progetti/careerkick.jpg" loading="lazy"
+                                        alt="CareerKick: impostazione della sfida, partita e sfida 1v1 su telefono">
+                                </div>
+                                <div class="portfolio-info">
+                                    <h3>CareerKick</h3>
+                                    <p>Quiz online: indovina il calciatore dal suo percorso in carriera. 6 lingue, 3
+                                        livelli, sfida del giorno, sopravvivenza e sfida 1v1 tra due browser.
+                                        Circa 4.650 giocatori presi da Wikidata e aggiornati in automatico dopo ogni
+                                        calciomercato.</p>
+                                    <ul class="portfolio-tags">
+                                        <li>JavaScript</li>
+                                        <li>PWA</li>
+                                        <li>WebRTC</li>
+                                        <li>Node.js</li>
+                                        <li>GitHub Actions</li>
+                                    </ul>
+                                    <div class="portfolio-links">
+                                        <a href="https://careerkick.it" class="btn btn-small" target="_blank"
+                                            rel="noopener"><i class="fa fa-play"></i> Gioca</a>
+                                        <a href="https://github.com/DemolitionWeb/CareerKick"
+                                            class="btn btn-small btn-outline" target="_blank" rel="noopener"><i
+                                                class="fab fa-github"></i> Codice</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item portfolio-item-big padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="Immagini/progetti/fantamantra.jpg" loading="lazy"
+                                        alt="FantaMantra AI: pagina Asta live con offerta massima e rilanci delle squadre">
+                                </div>
+                                <div class="portfolio-info">
+                                    <h3>FantaMantra AI</h3>
+                                    <p>Assistente per l'asta del Fantacalcio Mantra. Durante l'asta dal vivo calcola
+                                        crediti, posti liberi e offerta massima di ogni squadra e dice chi può ancora
+                                        rilanciare. Un AI Coach commenta i dati senza sostituire i calcoli.</p>
+                                    <ul class="portfolio-tags">
+                                        <li>Python</li>
+                                        <li>Streamlit</li>
+                                        <li>SQLite</li>
+                                        <li>OpenAI API</li>
+                                        <li>pytest</li>
+                                    </ul>
+                                    <div class="portfolio-links">
+                                        <a href="https://github.com/DemolitionWeb/FantaMantraAI" class="btn btn-small"
+                                            target="_blank" rel="noopener"><i class="fab fa-github"></i> Codice</a>
+                                        <a href="https://demolitionweb.github.io/FantaMantraAI/"
+                                            class="btn btn-small btn-outline" target="_blank" rel="noopener"><i
+                                                class="fa fa-eye"></i> Prototipo grafico</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-heading padd-15">
+                            <h2>Primi esercizi</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="Immagini/progetti/calcolatrice.jpg" loading="lazy"
+                                        alt="Calcolatrice con display e tastiera">
+                                </div>
+                                <div class="portfolio-info">
+                                    <h3>Calcolatrice</h3>
+                                    <p>Calcolatrice con le quattro operazioni, cancellazione e decimali.</p>
+                                    <ul class="portfolio-tags">
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                    </ul>
+                                    <div class="portfolio-links">
+                                        <a href="https://demolitionweb.github.io/Calculator/Index.html"
+                                            class="btn btn-small" target="_blank" rel="noopener"><i
+                                                class="fa fa-play"></i> Prova</a>
+                                        <a href="https://github.com/DemolitionWeb/Calculator"
+                                            class="btn btn-small btn-outline" target="_blank" rel="noopener"><i
+                                                class="fab fa-github"></i> Codice</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="Immagini/progetti/contatore.jpg" loading="lazy"
+                                        alt="Contatore con pulsanti più, meno e reset">
+                                </div>
+                                <div class="portfolio-info">
+                                    <h3>Contatore</h3>
+                                    <p>Contatore con pulsanti più, meno e reset, che non scende sotto lo zero.</p>
+                                    <ul class="portfolio-tags">
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                    </ul>
+                                    <div class="portfolio-links">
+                                        <a href="https://demolitionweb.github.io/Progetto-Javas-TommasoDominici/Index.html"
+                                            class="btn btn-small" target="_blank" rel="noopener"><i
+                                                class="fa fa-play"></i> Prova</a>
+                                        <a href="https://github.com/DemolitionWeb/Progetto-Javas-TommasoDominici"
+                                            class="btn btn-small btn-outline" target="_blank" rel="noopener"><i
+                                                class="fab fa-github"></i> Codice</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- PORTFOLIO ITEM END -->
+                    </div>
+                </div>
+                <!--  <a href="#home" class="btnTop">Back to home</a> -->
+            </section>
+            <!-- PORTFOLIO SECTION END-->
+            <!-- CONTACT SECTION START -->
+            <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Contatti</h2>
+                        </div>
+                    </div>
+                    <h3 class="contact-title padd-15">Hai un'offerta di lavoro o una domanda?</h3>
+                    <h4 class="contact-sub-title padd-15">Scrivimi, ti rispondo al più presto</h4>
+                    <div class="row">
+                        <!-- CONTACT INFO ITEM START -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:dominicitommaso2@gmail.com">dominicitommaso2@gmail.com</a></p>
+                        </div>
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fab fa-github"></i></div>
+                            <h4>GitHub</h4>
+                            <p><a href="https://github.com/DemolitionWeb" target="_blank"
+                                    rel="noopener">github.com/DemolitionWeb</a></p>
+                        </div>
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                            <h4>Zona</h4>
+                            <p>Montevarchi (AR)</p>
+                        </div>
+                        <!-- CONTACT INFO ITEM END -->
+                    </div>
+                    <h3 class="contact-title padd-15">Mandami un messaggio</h3>
+                    <h4 class="contact-sub-title padd-15">Il modulo apre il tuo programma di posta con il messaggio
+                        già pronto</h4>
+                    <!-- CONTACT FORM -->
+                    <div class="row">
+                        <form class="contact-form padd-15" id="contactForm">
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="nome" placeholder="Nome"
+                                            aria-label="Nome" required>
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="email" placeholder="La tua email"
+                                            aria-label="La tua email" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="oggetto" placeholder="Oggetto"
+                                            aria-label="Oggetto">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <textarea name="messaggio" class="form-control" placeholder="Messaggio"
+                                            aria-label="Messaggio" required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <button type="submit" class="btn">Invia</button>
+                                </div>
+                                <div class="card">
+                                    <a href="https://github.com/DemolitionWeb" class="socialContainer containerTwo">
+                                        <svg class="socialSvg GithubSvg" viewBox="0 0 16 16"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 
+                                                1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 
+                                                0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 
+                                                1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z">
+                                            </path>
+                                        </svg> </a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!-- CONTACT SECTION END -->
+        </div>
+        <!-- MAIN CONTENT END -->
+        <!-- STYLE SWITCHER START -->
+        <div class="style-switcher">
+            <!-- <div class="style-switcher-toggler s-icon">
+                <i class="fas fa-cog fa-spin"></i>
+            </div>-->
+            <div class="day-night s-icon">
+                <i class="fas fa-moon"></i>
+            </div>
+            <!--<h4>Tema colori</h4>
+            <div class="colors">
+                <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+                <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+                <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+                <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+                <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+            </div>-->
+        </div>
+        <!-- STYLE SWITCHER END -->
+    </div>
+    <!-- MAIN CONTAINER END -->
+    <!-- JS FILE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+        integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
+</body>
+
+</html>
