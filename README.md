@@ -54,6 +54,6 @@ Assistente per l'asta e la stagione del Fantacalcio Mantra.
 
 ## 📫 Contatti
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/IL-TUO-PROFILO)
+- 💼 [LinkedIn](https://www.linkedin.com/in/tommaso-dominici-a543112aa)
 - ✉️ dominicitommaso2@gmail.com
 - 🌐 [Portfolio](https://demolitionweb.github.io/Project/)
