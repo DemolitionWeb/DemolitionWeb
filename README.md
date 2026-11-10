@@ -15,7 +15,7 @@ Quiz web: indovina il calciatore dal suo percorso in carriera.
 
 - **6 lingue**, 3 livelli di difficoltà, sfida del giorno, modalità sopravvivenza
 - **Sfida 1v1 online** tra due browser con WebRTC (PeerJS), senza server né account
-- **~4.650 giocatori** importati da Wikidata con uno script Node.js
+- **Oltre 5.000 giocatori** importati da Wikidata con uno script Node.js
 - **PWA** installabile e utilizzabile offline
 - **GitHub Actions**: pubblicazione automatica su GitHub Pages e aggiornamento dei giocatori dopo ogni calciomercato
 
